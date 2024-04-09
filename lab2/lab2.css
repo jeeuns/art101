@@ -1,0 +1,30 @@
+h1 {
+    color: #1D438A;
+    font-size: 300%;
+    font-family: "Brush Script MT";
+    text-indent: 27%;
+  }
+  
+  p {
+    font-family: "Georgia";
+    text-indent: 20px;
+    margin-left: 10px;
+  
+  }
+  
+  #content {
+    background-color: #FFC6D1;
+    width: 500px;
+    min-height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: dotted 10px purple;
+    font-size: 20px;
+  
+  }
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
