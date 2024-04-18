@@ -4,3 +4,8 @@
   margin: 10px;
   max-width: 500px;
 }
+
+.portrait {
+  max-width: 50%;
+  max-height: 60%;
+}

@@ -1,5 +1,5 @@
 // index.js - purpose and description here
-// Author: Your Name
+// Author: Regina Kim
 // Date:
 
 // Constants
