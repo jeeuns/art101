@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,29 +23,92 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - PSEUDOCODING AND PROBLEM SOLVING</h1>
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>Pseudocoding before jumping into coding.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p> I think because of how similar javascript and C is, I'm having a hard time what does and doesn't work in JS compared to C. </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>I don't generally pseudocode in overall structure, but rather in parts. <br> In addition, I'm realizing I always need to include an example of how to solve that section in order to remember how to implement.</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
+					<pre><code>
+						“How to Make a Simple Guacamole”
+						- Take a ripe avocado and cut in half
+							- to remove pit, carefully pull pit out using the knife
+						- Scoop out the avocado into separate bowl
+						- Mash with a fork to your desired texture
+						- Add in pinches of coarse salt until desired flavor
+						- Squeeze half a lime
+						- Mix
+						- Finished Guacamole
+						
+					</pre></code>
+
+					<pre><code>
+						"Creating Rock-Paper-Scissors Game"
+						- Define inputs for rock/paper/scissors
+						- Create a list[] holding inputs
+						- Randomly choose Rock/Paper/Scissor
+						- Take user input and compare to randomly chosen
+						- evaluate win/loss/draw						
+
+					</pre></code>
+					
 					<div id="output"></div>
+					<pre><code>
+						// Rock Paper Scissors
+						// An implementation of the game
+						// Regina Kim <rejikim@ucsc.edu>
+						// April 2024
+
+						//Rock Paper Scissors
+						// set and show user inputs for rock/paper/Scissors
+						// const rock = 0;
+						// const paper = 1;
+						// const scissor = 2;
+
+						//Recieve user input and store into user_input variable.
+
+						//create a map acting as a dictionary
+							// e.g. mapchoice.set(0, 'rock');
+						//using math library, use random function to get computer move
+						//computer move = math.random(3)
+						//pull computer move from map
+							// return move = mapchoice.get(computermove);
+
+						//create comparison statements
+							//if (user input == 'rock' && returnmove == 'paper') {
+								// printf("You lose!\n");
+								// return playagain();
+							//} else if(user input == 'rock' && returnmove == 'scissor'){
+								// printf("You win!\n");
+								// return playagain();
+							//} else
+								//printf("Draw!\n")
+								//return playagain();
+							// repeat this structure for remaining user input
+
+						//Create playagain() to return player to play rock paper scissors again
+						//playagain()
+							//prints "Would you like to play again?"
+							//gets user input
+							//if yes == start from main
+							//if no == close application
+					</pre></code>
 			</div>
 		</section>
 		<nav id="links">
-			<!-- Put links to other pages (including the homepage) here. -->
+			<a href = "http://127.0.0.1:5501/index.html">Return to Home</a>
 		</nav>
 	</main>
 </body>

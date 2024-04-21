@@ -1,0 +1,38 @@
+// Rock Paper Scissors
+// An implementation of the game
+// Regina Kim <rejikim@ucsc.edu>
+// April 2024
+
+//Rock Paper Scissors
+// set and show user inputs for rock/paper/Scissors
+// const rock = 0;
+// const paper = 1;
+// const scissor = 2;
+
+//Recieve user input and store into user_input variable.
+
+//create a map acting as a dictionary
+    // e.g. mapchoice.set(0, 'rock');
+//using math library, use random function to get computer move
+//computer move = math.random(3)
+//pull computer move from map
+    // return move = mapchoice.get(computermove);
+
+//create comparison statements
+    //if (user input == 'rock' && returnmove == 'paper') {
+        // printf("You lose!\n");
+        // return playagain();
+    //} else if(user input == 'rock' && returnmove == 'scissor'){
+        // printf("You win!\n");
+        // return playagain();
+    //} else
+        //printf("Draw!\n")
+        //return playagain();
+    // repeat this structure for remaining user input
+
+//Create playagain() to return player to play rock paper scissors again
+//playagain()
+    //prints "Would you like to play again?"
+    //gets user input
+    //if yes == start from main
+    //if no == close application
