@@ -4,6 +4,16 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
+    border: solid 3px #000000;
     background-color: #DDD8C4;
   }
+
+div .code {
+    font-size: 40px;
+    font-family: "monospace";
+}
+
+image {
+    max-width: 50%;
+    max-height: 40%;
+}
