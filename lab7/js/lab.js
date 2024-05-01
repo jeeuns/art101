@@ -1,21 +1,23 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
-
-// Constants
+// Author: Regina Kim
+// Date:5/1/2024
 
 // Functions
+function takeInput() {
+  var userName = window.prompt("Please type your username: \n");
+  console.log("username = ", userName);
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+  var nameArray = userName.split(" ");
+  console.log("nameArray = ", nameArray);
+
+  var nameArraySort = nameArray.sort();
+  console.log("nameArraySort =", nameArraySort);
+
+  var nameSorted = nameArraySort.join(" ");
+  console.log("nameSorted =", nameSorted);
+
+  return nameSorted;
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+//output
+document.writeln("Here's your username: ", takeInput(), "</br>");
 
-// let's get this party started
-main();
