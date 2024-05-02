@@ -1,21 +1,26 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Regina Kim <rejikim@ucsc.edu>
+// Date: 5/2/24
 
-// Constants
-
-// Functions
-
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+function double(x) {
+  return x * 2;
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+//test function
+console.log("2 x 2 is: ", double(2));
+console.log("5 x 2 is: ", double(5));
 
-// let's get this party started
-main();
+//define the array
+var array = [1, 2, 3, 4, 5, 6];
+console.log("My Array: ", array);
+
+//doubles everything in the array
+var result = array.map(double);
+console.log("Doubles the value of the array: ", result);
+
+//squares x
+var result = array.map(function(x){
+  return x ** 2;
+});
+
+console.log("Array squared: ", result);
+
