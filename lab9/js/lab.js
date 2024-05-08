@@ -1,21 +1,35 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+/*
+   lab.js - This simple JavaScript/jQuery script uses buttons to modify some elements on the page
 
-// Constants
+   Requirements: jQuery must be loaded for this script to work.
 
-// Functions
+   Author: Regina Kim
+   Date: 5/8/2024
+*/
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
+$(document).ready(function() {
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+    // add button to challenge section
+  $("#challenge").append("<button id='button-challenge'>Make Special</button>");
 
-// let's get this party started
-main();
+  // add a click listener to the challenge button
+  $(document).on("click", "#button-challenge",function(){
+    // now add (or subtract) the "special" class to the section
+    $("#challenge").toggleClass("special");
+  });
+
+  $("#problems").append("<button id='button-problems'>Make Special</button>");
+
+  $(document).on("click", "#button-problems",function(){
+    // now add (or subtract) the "special" class to the section
+    $("#problems").toggleClass("special");
+  });
+
+  $("#results").append("<button id='button-results'>Make Special</button>");
+
+  $(document).on("click", "#button-results",function(){
+    // now add (or subtract) the "special" class to the section
+    $("#results").toggleClass("special");
+  });
+
+});
