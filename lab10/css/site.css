@@ -1,0 +1,52 @@
+/* we can use a single css file to style all the files in our wwebsite */
+
+/* you can pick your own background colors, text colors, and fonts */
+
+/* we can select an html element tag, in this case "body" will apply to the whole document */
+body {
+  background-color: #091a24;
+}
+
+/* we can have rules apply to multiple elements at the same time with commas */
+/* h2 {
+  font-family: 'New Century Schoolbook', 'TeX Gyre Schola', 'serif';
+  font-size: 40px;
+  margin-top: 50px;
+} */
+
+/* and we can have rules that overlap other rules, both take effect */
+h1 {
+  font-family: 'New Century Schoolbook', 'TeX Gyre Schola', 'serif';
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Arial";
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 30px;
+  font-stretch: semi-condensed;
+  text-align: center;
+}
+
+/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+#content {
+  margin: 10px;
+  padding: 10px;
+  /*border: solid 1px #888; */
+  background-color: #aee0c965;
+}
+
+div.links {
+  font-family:'Franklin Gothic Medium';
+  font-size: 30px;
+}
+
+p {
+  font-family:'Franklin Gothic Medium';
+  text-align: center;
+  font-size: 25px;
+}
