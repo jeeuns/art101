@@ -47,7 +47,7 @@ function reportError(str) {
 }
 
 document.getElementById('submit').addEventListener('click', function() {
-  var max = document.getElementById('max').value;
+  var max = document.getElementById("max").value;
   console.log('max:', max)
   // if (!max) {
   //   reportError("You must provide a maximum");
