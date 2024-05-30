@@ -49,9 +49,9 @@ function reportError(str) {
 document.getElementById('submit').addEventListener('click', function() {
   var max = document.getElementById("max").value;
   console.log('max:', max)
-  // if (!max) {
-  //   reportError("You must provide a maximum");
-  // } else {
+  if (!max) {
+    reportError("You must provide a maximum");
+  } else {
     var factors = {
       3: "Fizz",
       5: "Buzz",
@@ -59,4 +59,4 @@ document.getElementById('submit').addEventListener('click', function() {
     };
     fizzBuzzBoom(parseInt(max), factors);
   }
-);
+});
