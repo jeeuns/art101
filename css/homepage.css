@@ -1,11 +1,50 @@
-/* this css file will only style the homepage of our site */
+/* homepage.css */
 
-.cat-photo {
-  margin: 10px;
-  max-width: 500px;
+/* About Me section styling */
+.minor-section {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.portrait {
-  max-width: 50%;
-  max-height: 60%;
+/* Flexbox layout for portrait and links */
+.about-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center; /* Center items within the flex container */
+  flex-wrap: wrap;
+  gap: 20px; /* Space between items */
+}
+
+/* Portrait styling */
+#my-portrait {
+  max-width: 40%; /* Limit the image width */
+  height: auto;
+  border-radius: 50%;
+}
+
+/* About Me text styling */
+.minor-section h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.minor-section p {
+  margin-top: 10px;
+}
+
+/* Links styling */
+.links {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.links nav ul {
+  display: inline-block;
+  text-align: left;
+  padding: 0;
+}
+
+.links nav ul li {
+  margin-bottom: 10px;
 }
